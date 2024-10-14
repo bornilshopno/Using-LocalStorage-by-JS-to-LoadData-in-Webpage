@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                color1: '#06283D',
+                color2: '#1363DF',
+                color3: '#47B5FF',
+                color4: '#DFF6FF',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Input@LocalStorage</title>
+</head>
+
+<body>
+    <div id="personal-detail" class="bg-color1 p-10">
+        <h3 class="text-white py-2 font-bold text-4xl">About Me :</h3>
+        <div class="bg-color2 p-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="grid grid-cols-4 gap-5 py-2">
+                <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">I am:</label>
+                <input type="text" name="" id="" placeholder="Your Name" class=" rounded-lg text-center text-color-1 col-span-3">
+            </div>
+            <div class="grid grid-cols-4 gap-5 py-2">
+                <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">My Age:</label>
+                <input type="text" name="" id="" placeholder="Your Age" class=" rounded-lg text-center text-color-1 col-span-3">
+            </div>
+            <div class="grid grid-cols-4 gap-5 py-2">
+                <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">My School:</label>
+                <input type="text" name="" id="" placeholder="Your School Name" class=" rounded-lg text-center text-color-1 col-span-3">
+            </div>
+            <div class="grid grid-cols-4 gap-5 py-2">
+                <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">My Passion:</label>
+                <input type="text" name="" id="" placeholder="Your Passions" class=" rounded-lg text-center text-color-1 col-span-3">
+            </div>
+        </div>
+
+    </div>
+<!--First Secton completed-->
+    <div id="cart-info" class="bg-color1 p-10">
+
+        <h3 class="text-white py-2 font-bold text-4xl">My Wish Lists for Next Year :</h3>
+        <div class="grid grid-cols-3 gap-5">
+            <div class="bg-color3 p-10 grid grid-cols-1 md:grid-cols-2 gap-5 rounded-xl col-span-2">
+                <div class="grid grid-cols-4 gap-5 py-2">
+                    <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">Books:</label>
+                    <input type="text" name="" id="" placeholder="Books you want to read" class=" rounded-lg text-center text-color-1 col-span-3 px-1">
+                </div>
+                <div class="grid grid-cols-4 gap-5 py-2">
+                    <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">Places:</label>
+                    <input type="text" name="" id="" placeholder="Places you want to visit" class=" rounded-lg text-center text-color-1 col-span-3">
+                </div>
+                <div class="grid grid-cols-4 gap-5 py-2">
+                    <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">Habits:</label>
+                    <input type="text" name="" id="" placeholder="Habits you want to change" class=" rounded-lg text-center text-color-1 col-span-3">
+                </div>
+                <div class="grid grid-cols-4 gap-5 py-2">
+                    <label class="bg-color3 rounded-xl text-color1 text-lg font-semibold px-2 text-center col-span-1" for="">Money:</label>
+                    <input type="text" name="" id="" placeholder="Money you to earn" class=" rounded-lg text-center text-color-1 col-span-3">
+                </div>
+            </div>
+
+            <div class="bg-color2 p-10 rounded-xl">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
